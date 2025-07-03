@@ -14,23 +14,6 @@
 </head>
 <body>
 <script>
-  let ifd = 0;
-  let d
-
-
-  function sw(){
-if(ifd === 1){
-  const text = d;
-  document.getElementById('description').innerHTML = syoi(text) + ` .....`;
-  const button = document.getElementById('syouryaku')
-  button.innerText = "もっと見る";
-  ifd = 0;
-} else {
-document.getElementById('description').innerHTML = d;
-const button = document.getElementById('syouryaku')
-  button.innerText = "一部を表示";
-  ifd = 1;
-}
 }
   function syoi(text) {
     const se = /<\/?br\s*\/?>/i;
